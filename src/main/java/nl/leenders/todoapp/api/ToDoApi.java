@@ -25,7 +25,7 @@ public class ToDoApi {
 	static  { 
 		todootjes.add(new TodoModel(1, "boodschappen", "huishoudelijk", new Date()));
 		todootjes.add(new TodoModel(2, "zitten", "chillen", new Date()));
-		todootjes.add(new TodoModel(2, "in de zon zitten", "chillen", new Date()));
+		todootjes.add(new TodoModel(3, "in de zon zitten", "chillen", new Date()));
 		
 	}
 	
@@ -38,7 +38,7 @@ public class ToDoApi {
 		
 		todootjes.add(new TodoModel(1, "boodschappen", "huishoudelijk", new Date()));
 		todootjes.add(new TodoModel(2, "zitten", "chillen", new Date()));
-		todootjes.add(new TodoModel(2, "in de zon zitten", "chillen", new Date()));
+		todootjes.add(new TodoModel(3, "in de zon zitten", "chillen", new Date()));
 		
 		return todootjes;
 		
